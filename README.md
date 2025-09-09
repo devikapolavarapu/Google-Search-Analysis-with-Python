@@ -23,8 +23,3 @@ Feel free to submit issues and enhancement requests!
 Disclaimer
 This project uses the unofficial Pytrends API. It may stop working if Google changes their Trends service or implements stricter rate limiting.
 
-
-
-
-# Instead of direct calls, wrap them:
-data_over_time = make_request_with_retry(Trending_topics.interest_over_time)
